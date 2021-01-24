@@ -9,43 +9,43 @@
   <title>Frontend Mentor | Profile card component</title>
   <!-- stylesheet -->
   <link rel="stylesheet" href="styles.css">
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <img src="images/bg-pattern-top.svg" alt="top-pattern" class="top-pattern pattern">
   <img src="images/bg-pattern-bottom.svg" alt="bottom-pattern" class="bottom-pattern pattern">
   <div class="card">
     <div class="card-header">
-      <img src="images/bg-pattern-card.svg" alt="">
+      <img src="images/bg-pattern-card.svg" alt="" class="card-pattern">
     </div>
     <div class="card-body">
       <img src="images/image-victor.jpg" alt="" class="profile-img">
-      <h3> Victor Crest  <span>26</span></h3>
-       <h4>London</h4> 
+      <div class="info">
+        <h3> Victor Crest  <span>26</span></h3>
+        <h4>London</h4> 
+      </div>
+      
     </div>
     <div class="card-footer">
-      <div class="info">
-        <h3>80K</h3>
-        <h5>Followers</h5>
-      </div>
-      <div class="info">
-        <h3>803K</h3>
-        <h5>Likes</h5>
-      </div>
-      <div class="info">
-        <h3>1.4K</h3>
-        <h5>Photos</h5>
-      </div>
+      <ul>
+        <li>
+          <h3>80K</h3>
+          <h5>Followers</h5>
+        </li>
+        <li>
+          <h3>803K</h3>
+          <h5>Likes</h5>
+        </li>
+        <li>
+          <h3>1.4K</h3>
+          <h5>Photos</h5>
+        </li>
+      </ul>
     </div>
   </div>
  
-  <!-- <div class="attribution">
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Atitebi Olamide</a>.
-  </div> -->
+    Coded by <a href="https://github.com/olamide203">Atitebi Olamide</a>.
+  </div>
 </body>
 </html>
