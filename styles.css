@@ -8,7 +8,6 @@
 
 body {
   background-color: hsl(185, 75%, 39%);
-  height: 100vh;
   overflow: hidden;
   font-family: 'Kumbh Sans', sans-serif;
 }
@@ -28,14 +27,14 @@ h3 span {
 }
 
 .top-pattern {
-  width: 60%;
-  margin-top: -300px;
-  margin-left: -200px;
+  width: 75%;
+  margin-top: -600px;
+  margin-left: -340px;
 }
 
 .bottom-pattern {
   width: 70%;
-  position: absolute;
+  position: fixed;
   right: -200px;
   bottom: 0;
   margin-bottom: -600px;
@@ -46,11 +45,10 @@ h3 span {
   border-radius: 5%;
   text-align: center;
   position: absolute;
-  z-index: 1;
-  top: 20%;
-  left: 0;
-  right: 0;
-  margin: auto;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index:1;
   overflow: hidden;
   background-color: #ffffff;
 }
@@ -103,4 +101,73 @@ h3 span {
 .attribution a {
   color: hsl(228, 45%, 44%);
   text-decoration: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .top-pattern {
+    margin-top: -150px;
+    margin-left: -100px;
+  }
+  
+  .bottom-pattern {
+    right: -100px;
+    margin-bottom: -100px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .top-pattern {
+    margin-top: -200px;
+    margin-left: -150px;
+  }
+  
+  .bottom-pattern {
+    right: -100px;
+    margin-bottom: -200px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .top-pattern {
+    margin-top: -300px;
+    margin-left: -200px;
+  }
+  
+  .bottom-pattern {
+    right: -200px;
+    margin-bottom: -300px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .top-pattern {
+    margin-top: -400px;
+    margin-left: -400px;
+  }
+  
+  .bottom-pattern {
+    right: -200px;
+    margin-bottom: -500px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .top-pattern {
+    width: 75%;
+    margin-top: -600px;
+    margin-left: -340px;
+  }
+  
+  .bottom-pattern {
+    width: 70%;
+    position: fixed;
+    right: -200px;
+    bottom: 0;
+    margin-bottom: -600px;
+  }
 }
