@@ -51,6 +51,8 @@ h3 span {
   z-index:1;
   overflow: hidden;
   background-color: #ffffff;
+  box-shadow: 0 20px 20px rgba(0, 0, 0, .15);
+  
 }
 
 .card-body {
@@ -74,7 +76,7 @@ h3 span {
   padding: 0 1%;
 }
 .card-footer {
-  border-top: 0.25px solid hsl(0, 0%, 59%);
+  border-top: 0.25px solid hsl(0, 0%, 80%);
   padding: 7% 0% 5%;
 }
 .card-footer li {
