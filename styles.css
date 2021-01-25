@@ -74,7 +74,7 @@ h3 span {
   padding: 0 1%;
 }
 .card-footer {
-  border-top: 1px solid hsl(0, 0%, 59%);
+  border-top: 0.25px solid hsl(0, 0%, 59%);
   padding: 7% 0% 5%;
 }
 .card-footer li {
@@ -166,7 +166,7 @@ h3 span {
   .bottom-pattern {
     width: 70%;
     position: fixed;
-    right: -200px;
+    right: -250px;
     bottom: 0;
     margin-bottom: -600px;
   }
